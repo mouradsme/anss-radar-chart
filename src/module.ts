@@ -28,23 +28,4 @@ export const plugin = new PanelPlugin<ChartOptions>(ANSSChartsPanel).useFieldCon
     defaultValue: 'black',
     category: ['Couleurs']
   })
-  .addBooleanSwitch({
-    path: "autoColoring",
-    name: "Couleurs Auto?",
-    description: "Si cette option est activée, les couleurs des arcs seront choisies automatiquement, sinon les gradients seront utilisés",
-    defaultValue: false,
-    category: ['Couleurs']
-  })
-  .addColorPicker({
-    path: "gradientColor1",
-    name: "Couleur 1 du gradient",
-    defaultValue: "blue",
-    category: ['Couleurs']
-  })
-  .addColorPicker({
-    path: "gradientColor2",
-    name: "Couleur 2 du gradient",
-    defaultValue: "red",
-    category: ['Couleurs'],
-  })
 })
