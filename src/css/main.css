@@ -1,44 +1,7 @@
-.RadialChartContainer svg {
-    margin: 0px auto;
-    display: block;
-}
-
-.RadialChartContainer path.arc {
-    opacity: 0.9;
-    transition: opacity 0.5s;
-}
-
-.RadialChartContainer path.arc:hover {
-    opacity: 0.7;
-}
-
-.RadialChartContainer .axis line,
-.RadialChartContainer .axis circle {
-    stroke: #cccccc;
-    stroke-width: 1px
-}
-
-.RadialChartContainer .axis circle {
-    fill: none;
-}
-
-.RadialChartContainer .r.axis text {
-    text-anchor: end
-}
-
-.radial-tooltip {
-    position: absolute;
-    display: none;
-    top: 5px;
-    left: 5px;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 3px;
-    box-shadow: -3px 3px 15px #888;
-    color: white;
-    padding: 6px;
-    z-index: 99999;
-}
-
 .RadialChartContainer {
-    min-height: 300px !important;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    margin: auto;
+    text-align: center;
 }
